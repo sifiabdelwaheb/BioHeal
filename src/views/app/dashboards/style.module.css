@@ -1,0 +1,434 @@
+@font-face {
+  font-family: "Chivo-Italic";
+  src: local("Chivo-Italic"),
+    url("../../../assets/Chivo-Italic.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Chivo-Bold";
+  src: local("Chivo-Bold"),
+    url("../../../assets/Chivo-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: local("Roboto-Bold"),
+    url("../../../assets/Roboto-Bold.ttf") format("opentype");
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: -3%;
+}
+.Similarity_Container {
+  height: calc(100% - 80px);
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+.profiling {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 5%;
+}
+.moteur {
+  height: 50%;
+  max-height: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  background-color: #ffffff;
+}
+.moteur_chart {
+  height: 50%;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+  margin-top: 30px;
+
+  background-color: #ffffff;
+}
+.button {
+  background-color: blue;
+  font-family: 22px;
+  font-weight: 1000;
+  margin-bottom: 23px;
+  border-radius: 12px;
+}
+.btncnt {
+  align-items: left;
+  align-content: left;
+}
+
+.Society_Avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  /* text-align: center; */
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  border: solid 1px #ccc;
+}
+.paddingEmp {
+  padding-bottom: 50px;
+}
+.iconplus {
+  margin-left: 20px;
+  width: 20px;
+}
+
+.Modal_title {
+  font-size: 22px;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  background-color: blueviolet;
+}
+.Modal {
+  width: 78%;
+}
+
+.Cardpie {
+  font-size: 18px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  width: 120%;
+  opacity: 0.9;
+
+  height: 73%;
+  margin-top: 120px;
+}
+.Sim_Card {
+  font-size: 18px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  width: 70%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 120px;
+  opacity: 0.9;
+}
+.Card {
+  font-size: 18px;
+  opacity: 0.9;
+  border-radius: 12px;
+  display: flex;
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 120px;
+}
+.Cardsearch {
+  font-size: 18px;
+  background-color: white;
+  display: flex;
+  width: 60%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 120px;
+  margin-left: 20%;
+  opacity: 0.9;
+  min-width: 380px;
+  padding-left: 8%;
+  border-radius: 12px;
+}
+
+.Card_foods {
+  font-size: 18px;
+  background-color: white;
+  display: flex;
+  width: 90%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 120px;
+  margin-left: 5%;
+  opacity: 0.9;
+  min-width: 380px;
+  padding-left: 5%;
+  border-radius: 12px;
+}
+
+.container_card {
+  background-image: url("../../../assets/images/bg-heading-02.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 9%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (max-width: 735px) {
+  .container_card {
+    background-image: none;
+    padding-left: 0%;
+  }
+  .Cardsearch {
+    margin-left: -15%;
+  }
+  .Card_foods {
+    margin-left: -15%;
+  }
+  .result_title {
+  }
+  .Container_Recherche {
+    padding-left: 8%;
+  }
+
+  .Card_maps {
+    display: none;
+  }
+  .predictions {
+    margin-left: -20%;
+  }
+}
+
+.containerSpan {
+  margin-left: 20%;
+  margin-top: 1%;
+}
+
+.containerSpann {
+  margin-left: 30%;
+  margin-top: 200px;
+}
+
+.sililariity_button {
+  background-color: #ffffff;
+  font-weight: bold;
+  height: 40px;
+  font-size: 16px;
+  color: #141414;
+  font-family: "Montserrat";
+}
+
+.sentiment_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sentiment {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.btn {
+  /* clear the focus outline */
+  background-color: "#da2323";
+  font-weight: "bold";
+  height: "40px";
+}
+
+.btn:hover {
+  /* change the button top 2 px down */
+  top: 1px;
+}
+
+.btn:active {
+  box-shadow: 0 0 #db5452;
+  top: 2px;
+}
+
+.home_title {
+  font-size: 100%;
+  color: #141414;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+  margin-left: 4%;
+
+  position: relative;
+  font-family: Chivo-Italic, sans-serif;
+}
+
+.Home_Container {
+  height: 100%;
+
+  width: 95%;
+
+  margin-top: 12%;
+}
+.Personalized_Container {
+  height: 100%;
+
+  width: 90%;
+
+  margin-top: 12%;
+  margin-left: 8%;
+}
+.Container_Recherche {
+  height: 100%;
+
+  width: 98%;
+
+  margin-top: 2%;
+}
+
+.predictions {
+  display: flex;
+  flex-direction: row;
+}
+
+.Modalregister {
+  min-width: 20%;
+  box-shadow: none;
+}
+
+.titlerank {
+  font-size: 29px;
+  color: #141414;
+  font-weight: 1000;
+
+  margin-bottom: 20px;
+  margin-left: 50px;
+
+  font-family: Chivo-Italic, sans-serif;
+}
+.tabcontain {
+  font-weight: bold;
+  color: #141414;
+  font-family: Chivo-Bold, sans-serif;
+  width: 84%;
+  margin-left: 3.5%;
+  margin-top: 12%;
+  margin-bottom: 5%;
+  font-size: medium;
+}
+
+.card_container p {
+  margin: 0;
+}
+.card_container > .ant-tabs-card .ant-tabs-content {
+  height: 120px;
+  margin-top: -16px;
+}
+.card_container > .ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane {
+  padding: 16px;
+  background: #fff;
+}
+.card_container > .ant-tabs-card > .ant-tabs-nav::before {
+  display: none;
+}
+.card_container > .ant-tabs-card .ant-tabs-tab,
+[data-theme="compact"] .card-container > .ant-tabs-card .ant-tabs-tab {
+  background: transparent;
+  border-color: transparent;
+}
+.card_container > .ant-tabs-card .ant-tabs-tab-active,
+[data-theme="compact"] .card-container > .ant-tabs-card .ant-tabs-tab-active {
+  background: #fff;
+  border-color: #fff;
+}
+#components-tabs-demo-card-top .code-box-demo {
+  padding: 24px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+[data-theme="compact"] .card-container > .ant-tabs-card .ant-tabs-content {
+  height: 120px;
+  margin-top: -8px;
+}
+[data-theme="dark"] .card-container > .ant-tabs-card .ant-tabs-tab {
+  background: transparent;
+  border-color: transparent;
+}
+[data-theme="dark"] #components-tabs-demo-card-top .code-box-demo {
+  background: #000;
+}
+[data-theme="dark"]
+  .card-container
+  > .ant-tabs-card
+  .ant-tabs-content
+  > .ant-tabs-tabpane {
+  background: #141414;
+}
+[data-theme="dark"] .card-container > .ant-tabs-card .ant-tabs-tab-active {
+  background: #141414;
+  border-color: #141414;
+}
+
+.selectedTab {
+  background-color: #db5452;
+}
+
+.result_title {
+  font-size: 22px;
+  color: black;
+  font-family: "Chivo-Bold";
+
+  font-weight: 800;
+  margin-top: 22px;
+  margin-left: 15px;
+}
+
+.rearch_title {
+  font-size: 100%;
+  color: black;
+  font-family: "Chivo-Bold";
+
+  font-weight: 800;
+}
+
+.plants_title {
+  font-size: 22px;
+  color: black;
+  font-family: "Chivo-Bold";
+  text-decoration: underline;
+
+  font-weight: 800;
+}
+
+
+.Healthcare_Container {
+  height: 100%;
+
+  width: 100%;
+
+  margin-top: 120px;
+ 
+ 
+}
+
+.provide_healthcare_title {
+  padding: auto;
+  margin-left: 3%;
+  font-family: Poppins-Medium;
+
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activities_component_title {
+  
+  
+  text-align: center;
+  font-size: 32px;
+  color: #0e204d;
+  font-family: Roboto-Bold;
+
+
+  font-weight: bold;
+  margin-bottom: 1%;
+  margin-top: 13%;
+  width: 100%;
+
+  color: #0e204d;
+}

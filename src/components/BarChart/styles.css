@@ -1,0 +1,54 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  span {
+    margin: 20px;
+  }
+  
+  .label {
+    display: inline-block;
+    width: 120px;
+  }
+  
+  .container_app_chart{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14px;
+  }
+
+  .btn-chart {
+    /* clear the focus outline */
+    outline: none;
+    border: none;
+    /* change the icon of mouse when hover */
+    cursor: pointer;
+    display: block;
+    
+    /* keep the relative postion when change the button */
+    position: relative;
+    background: #D4275B;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    
+    padding: 25px 80px;
+    margin: 0 auto;
+    /* set the shadow: x-shadow, y-shadow, color */
+    box-shadow: 0 6px #D4275B;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+  }
+  
+  .btn-chart:hover {
+    box-shadow: 0 4px #efa424;
+    /* change the button top 2 px down */
+    top: 1px;
+    font-weight: bold;
+  }
+  
+ 
+  

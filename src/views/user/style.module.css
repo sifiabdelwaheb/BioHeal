@@ -1,0 +1,445 @@
+@font-face {
+  font-family: 'Chivo-Italic';
+  src: local('Chivo-Italic'),
+    url('../../assets/Chivo-Italic.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Chivo-Bold';
+  src: local('Chivo-Bold'),
+    url('../../assets/Chivo-Bold.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Poppins-Italic';
+  src: local('Poppins-Italic'),
+    url('../../assets/Poppins-Italic.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Venera 900';
+  src: local('Venera 900'),
+    url('../../assets/Venera 900.otf') format('opentype');
+}
+
+.RowHome {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20%;
+}
+.FooterHome {
+  width: 100%;
+
+  background-color: #223620;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.Modal {
+  box-shadow: none;
+}
+/* .Card {
+  max-width: 400px;
+} */
+.FooterHome div {
+  justify-content: center !important;
+}
+.FormSelect {
+  margin-bottom: 20px;
+}
+.Col {
+  flex: 0 0 0;
+}
+@media (min-width: 412px) {
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .Container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Col {
+    min-width: 700px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+.Card {
+  margin-top: 3%;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: -7%;
+  padding-left: 2.5%;
+}
+.Container2 {
+  height: calc(100% - 80px);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.Similarity_Container {
+  height: calc(100%);
+
+  width: 90%;
+  margin-top: 60px;
+}
+.Home_Container {
+  height: 100%;
+
+  width: 90%;
+  margin-left: 5%;
+}
+.profiling {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.button {
+  background-color: blue;
+  font-family: 22px;
+  font-weight: 1000;
+  margin-bottom: 23px;
+  border-radius: 12px;
+}
+.btncnt {
+  align-items: left;
+  align-content: left;
+}
+
+.Society_Avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  /* text-align: center; */
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  border: solid 1px #ccc;
+}
+.paddingEmp {
+  padding-bottom: 50px;
+}
+.iconplus {
+  margin-left: 20px;
+  width: 20px;
+}
+
+.Modal_title {
+  font-size: 22px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 800;
+  background-color: blueviolet;
+}
+.Modal {
+  width: 100%;
+  min-width: 50%;
+}
+.Modalregister {
+  width: 100%;
+  min-width: 60%;
+  box-shadow: none;
+}
+
+.Cardpie {
+  font-size: 18px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  width: 120%;
+  opacity: 0.9;
+
+  height: 73%;
+}
+.Sim_Card {
+  font-size: 18px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  width: 70%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 120px;
+  opacity: 0.9;
+}
+.Card {
+  font-size: 18px;
+  opacity: 0.9;
+  border-radius: 12px;
+  display: flex;
+  width: 95%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 130px;
+}
+.Cardsearch {
+  font-size: 18px;
+  background-color: red;
+  border-radius: 12px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 0.9;
+  display: flex;
+}
+
+.Container_Recherche {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.containerSpan {
+  margin-left: 50%;
+}
+
+.containerSpann {
+  margin-left: 30%;
+  margin-top: 200px;
+}
+
+.sililariity_button {
+  background-color: #ffffff;
+  font-weight: bold;
+  height: 40px;
+  font-size: 16px;
+  color: #141414;
+  font-family: 'Montserrat';
+}
+
+.sentiment_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home_title {
+  font-size: 48px;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -4%;
+  margin-bottom: 4%;
+  position: relative;
+  margin-left: 9%;
+  z-index: 200;
+  font-family: Venera 900;
+  width: 20%;
+}
+.home_title1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Venera 900;
+  font-weight: 700;
+
+  font-size: 18px;
+}
+
+@media (max-width: 780px) {
+  .home_title1 {
+    width: 90%;
+  }
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: -3%;
+}
+
+.profiling {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 5%;
+}
+.moteur {
+  height: 50%;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #ffffff;
+}
+.moteur1 {
+  height: 60%;
+  max-height: 700px;
+  display: flex;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  background-color: #ffffff;
+}
+.moteur_chart {
+  height: 50%;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+  margin-top: 30px;
+
+  background-color: #ffffff;
+}
+.button {
+  background-color: blue;
+  font-family: 22px;
+  font-weight: 1000;
+  margin-bottom: 23px;
+  border-radius: 12px;
+}
+.btncnt {
+  align-items: left;
+  align-content: left;
+}
+
+.Society_Avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  /* text-align: center; */
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  border: solid 1px #ccc;
+}
+.paddingEmp {
+  padding-bottom: 50px;
+}
+.iconplus {
+  margin-left: 20px;
+  width: 20px;
+}
+
+.Modal_title {
+  font-size: 22px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 800;
+  background-color: blueviolet;
+}
+.Modal {
+  width: 78%;
+}
+
+.Cardpie {
+  font-size: 18px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  width: 120%;
+  opacity: 0.9;
+
+  height: 73%;
+  margin-top: 120px;
+}
+.Sim_Card {
+  font-size: 18px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  width: 70%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 120px;
+  opacity: 0.9;
+}
+.Card {
+  font-size: 18px;
+  opacity: 0.9;
+  border-radius: 12px;
+  display: flex;
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 120px;
+}
+.Cardsearch {
+  font-size: 18px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 120px;
+  opacity: 0.9;
+}
+
+.Container_Recherche {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.containerSpan {
+  margin-left: 40%;
+}
+
+.containerSpann {
+  margin-left: 30%;
+  margin-top: 200px;
+}
+
+.sililariity_button {
+  background-color: #ffffff;
+  font-weight: bold;
+  height: 40px;
+  font-size: 16px;
+  color: #141414;
+  font-family: 'Montserrat';
+}
+
+.sentiment_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sentiment {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.Modal_Delete_confirm {
+  box-shadow: none;
+}

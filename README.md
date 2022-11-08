@@ -1,1 +1,2 @@
-# BioHeal
+# GreenHeal
+Green Heal Project

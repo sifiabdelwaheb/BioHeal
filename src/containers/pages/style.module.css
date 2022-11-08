@@ -1,0 +1,13 @@
+.Modal {
+ width: 100%;
+ min-width: 60%;
+ background-color: brown;
+}
+
+.Modalregister{
+ width: 100%;
+ min-width: 95%;
+ background-color: brown;
+ z-index: 1400;
+
+}

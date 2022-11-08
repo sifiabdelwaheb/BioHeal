@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Chivo-Italic";
+  src: local("Chivo-Italic"),
+    url("../../assets/Chivo-Italic.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Chivo-Bold";
+  src: local("Chivo-Bold"),
+    url("../../assets/Chivo-Bold.ttf") format("opentype");
+}
+
+.card_plants_image {
+  margin-left: 15px;
+  min-width: 220px;
+  max-width: 220px;
+  min-height: 220px;
+  max-height: 220px;
+  margin-top: 1%;
+}
+
+@media (max-width: 735px) {
+  .card_plants_image {
+    margin-left: 15px;
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 120px;
+    max-height: 120px;
+    margin-top: 1%;
+  }
+}
+
+.card_healthcare_title {
+  padding: auto;
+  margin-left: 3%;
+  font-family: Poppins-Medium;
+
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_healthcare_descrition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Poppins-Medium;
+
+  font-size: 15px;
+  text-align: center;
+}
+
+.card_healthcare_image {
+  border-radius: 12px;
+}
